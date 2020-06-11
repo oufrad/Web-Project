@@ -1,0 +1,38 @@
+body,html
+{
+    height: 100%;
+    width: 100%;
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.buffer2{
+    height: 9rem;
+}
+
+header p {
+    font-size: 3rem;
+}
+
+hr {
+    width: 63px;
+    border-color: burlywood;
+    height: 5px;
+}
+
+.btn {
+    border-radius: 7rem;
+    background-color: burlywood;
+    border-color: burlywood;
+    padding: 13px 23px;
+}
+.btn:hover
+{
+    width: 105px;
+    background-color: rgb(160, 67, 1);
+    border-color: rgb(160, 67, 1);
+}
